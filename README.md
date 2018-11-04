@@ -7,7 +7,7 @@ For building and running the application you need:
 All Maven plugins and dependencies are available from [Maven Central](https://search.maven.org/). Please have installed
 * JDK 1.8
 * Maven 3.3+
-* Lombok 0.21+
+* Lombok 0.21+ (have to be installed in your IDE)
 
 ### Building the application
 
