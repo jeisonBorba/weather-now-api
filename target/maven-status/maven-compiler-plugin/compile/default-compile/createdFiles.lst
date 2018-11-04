@@ -1,0 +1,4 @@
+com\br\jeisonborba\weathernowapi\model\Clouds.class
+com\br\jeisonborba\weathernowapi\common\exception\ExceptionResponse.class
+com\br\jeisonborba\weathernowapi\common\exception\CustomizedResponseEntityExceptionHandler.class
+com\br\jeisonborba\weathernowapi\controller\CityNotFoundException.class
