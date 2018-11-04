@@ -25,32 +25,32 @@ mvn spring-boot:run
 
 This API has the following endpoints:
 
-### `GET localhost:8080/api/city`
+### `GET /api/city`
 
   This method is responsible for fetch all recorded cities in database.
   
-### `POST localhost:8080/api/city/`
+### `POST /api/city`
 
   This method is responsible for create a new city in database.
 
 #### Arguments:
   * `city` [mandatory] string
 
-### `DELETE localhost:8080/api/city/`
+### `DELETE /api/city`
 
   This method is responsible for delete the city in database.
 
 #### Arguments:
   * `id` [mandatory] long
 
-### `GET localhost:8080/api/city/weather/`
+### `GET /api/city/weather`
 
   This method is responsible for fetch the real time cities weather from OpenWeatherMap API.
   
 #### Arguments:
-  * `citiesId [mandatory] list<>long`
+  * `citiesId [mandatory] list<long>`
   
-### `GET localhost:8080/api/city/forecast/`
+### `GET /api/city/forecast`
 
   This method is responsible for fetch 5 days forecast from OpenWeatherMap API.
 
