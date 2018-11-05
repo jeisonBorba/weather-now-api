@@ -16,8 +16,8 @@ public class MainResponse {
     private double humidity;
 
     @SerializedName("temp_min")
-    private double minimunTemperature;
+    private double minTemp;
 
     @SerializedName("temp_max")
-    private double maximunTemperature;
+    private double maxTemp;
 }
